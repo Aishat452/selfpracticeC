@@ -5,17 +5,19 @@
  * Return: 0
  */
 
-int main (result)
+int main ()
+{
 	int a = 2;
 	int b = 3;
-	int a * b = result;
+	int result = a * b;
 
-	if ("%d %d", &a * &b)
-{
+	if ("%d %d", a * b)
+	{
+		printf("You're correct %d is the result\n", result);
+	}
 
-	a * b = mul;
-		printf("Correct answer");
-                return (result);
-} else{
-   printf("not correct")
+	else{
+		printf("Not correct");
+	}
+	return (result);
 }
