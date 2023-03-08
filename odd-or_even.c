@@ -18,7 +18,7 @@ printf("Kindly input your number below\n");
 printf("=>");
 scanf("%d", num);
 
-(result == result) ? printf("Your number %d is even."): printf("Your number %d is odd.");
+(result == result) ? printf("Your number %d is even", result): printf("Your number %d is odd.", result);
 
 return (0);
 
